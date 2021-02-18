@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Details</title>
+    <style>
+        body{
+            background-color:grey;
+        }
+        #Detail1{
+            display: flex;
+        }
+        #part1{
+            flex-grow: 5;
+        }
+        #part2{
+            flex-grow: 5;
+        }
+        #Detail2{
+            display: flex;
+        }
+        #part3{
+            flex-grow: 3;
+        }
+        #part4{
+            flex-grow: 3;
+        }
+        #part5{
+            flex-grow: 3;
+        } 
+        form{
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: navy;">Student Details</h1>
+    <div id="personal">
+        <h2 style="margin-top: 20px; background-color: lightseagreen; display: inline-block; ">Personal Details</h2>
+        <div id="Detail1">
+        <div id="part1">
+        <form>
+           
+            <input type="text" id="FirstName" placeholder="enter your first Name" style="margin-top: 20px;"><br>
+            <input type="text" id="LastName" placeholder="enter your last name" style="margin-top: 20px;"><br>
+            <input type="tel" id="MobileNumber" placeholder="enter your mob number" style="margin-top: 20px;"><br>
+            <input type="email" id="Email" placeholder="enter your email" style="margin-top: 20px;"><br>
+       
+                        </form>
+                    </div>
+                    <div id="part2">
+                        <form style="padding-right: 75px;">
+                            <input type="text" id="Guardian Name" placeholder="Enter your parents name" style="margin-top: 20px;"><br>
+            <textarea  id="address" placeholder="Enter your address" style="margin-top: 20px;"></textarea><br>
+            <input type="number" id="pincode" placeholder="enter your pincode" style="margin-top: 20px;"><br>
+            <input type="text" id="State" placeholder="enter the state" style="margin-top: 20px;">
+                        </form>
+                    </div>
+                </div>
+    </div>
+    <div id="Education">
+        <h2 style="margin-top: 40px; background-color: lightseagreen; display: inline-block;">Education Details</h2>
+        <div id="Detail2">
+            <div id="part3">
+                <h3 style="margin-top: 30px; color:indigo; padding-left: 50px;">High School</h3>
+                <form>
+                    <input type="text" id="SchoolName" placeholder="Enter your school name" style="margin-top: 20px;"><br>
+                    <input type="number" id="Percentage"  placeholder="enter your percentage" style="margin-top: 20px;"><br>
+                    <input type="date" id=" Year of passout" placeholder="Year of passout" style="margin-top: 20px;"><br>
+
+                </form>
+            </div>
+            <div id="part4">
+                <h3 style="margin-top: 30px; color: indigo; padding-left: 50px;">12th Details</h3>
+                <form>
+                    <input type="text" id="CollegelName" placeholder="Enter your school name" style="margin-top: 20px;"><br>
+                    <input type="number" id="Percentage"  placeholder="enter your percentage" style="margin-top: 20px;"><br>
+                    <input type="date" id=" Year of passout" placeholder="Year of passout" style="margin-top: 20px;"><br> 
+                    
+                </form>
+            </div>
+            <div id="part5">
+                <h3 style="margin-top: 30px; color: indigo; padding-left: 50px;">Graduation Details</h3>
+                <form>
+                    <input type="text" id="CollegelName" placeholder="Enter your school name" style="margin-top: 20px;"><br>
+                    <input type="tex" id="Stream" placeholder="Enter your branch" style="margin-top: 20px;"><br>
+                    <input type="number" id="Percentage"  placeholder="Aggregate percentage" style="margin-top: 20px;"><br>
+                    <input type="date" id=" Year of passout" placeholder="Year of passout" style="margin-top: 20px;"><br> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="Detail3">
+        <h3 style="margin-top: 40px; background-color: lightseagreen; display: inline-block;"> Work Experience Details</h3>
+        <form>
+            <input type="number" id="Year Of Experience" placeholder="Years of Experience" style="margin-top: 20px;"><br>
+            <input type="text" id="Technology" placeholder="Technology you have worked on" style="margin-top: 20px;"><br>
+            <input type="text" id="Current company" placeholder="Current Company" style="margin-top: 20px;"><br>
+            <input type="number" id="notice period" placeholder="Notice period" style="margin-top: 20px;"><br>
+        </form>
+    </div>
+    <div id="Submit">
+        <form>
+            <input type="button" value="Submit" style="margin-top: 50px; background-color: limegreen; color: white; text-align: center;">
+        </form>
+    </div>
+</body>
